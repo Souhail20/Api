@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+.list-card{
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 0%;
+
+}
+div h4{
+  margin-top: 4%;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  font-size: 36px;
+  color: hsl(266, 87%, 41%);
+  text-align: center;
+}
+.user-card:hover{
+    cursor: pointer;
+    transform: scale(1.01,1.01);
+    transition: transform .3s ease;
+}
+.user-card{
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: gray;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+.user-image{
+    align-items: center;
+    margin-left: 120%;
+    margin-top: 10%;
+}
+.card-top{
+    height: 60%;
+ width: 30%;
+}
+.card-body{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.card-body .name{
+text-align: center;
+font-family: 'Dancing Script', cursive;
+font-size: 30px;
+color: #DC143C;
+}
+body{
+    background-color: rgba(255, 255, 128, .5);
+}
